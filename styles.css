@@ -1,0 +1,399 @@
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.headerbg {
+    height: 650px;
+    width: 100%;
+}
+
+.header1 {
+    width: 60px;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 25px 50px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header1:hover {
+    color: gray;
+}
+
+.greentext {
+    color: rgb(45,189,157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 275px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 30em;
+    right: 0;
+    margin: auto;
+}
+
+.pitch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 14em;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.addons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 9em;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 2em;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    width: 250px;
+
+    border-radius: 5px;
+}
+
+.buttonText {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 1.2em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.trialDisclaimer {
+    position: absolute;
+    top: 8em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+.gradBar {
+    position: absolute;
+    top: 22em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(8,23,34) , rgb(15,71,89));
+    background-color: salmon;
+}
+
+.brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 1em;
+    right: 70em;
+    margin: auto;
+    height: 81px;
+    width: 327px;
+}
+
+.save {
+    color: rgb(45,189,157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 2em;
+    left: 55em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cost {
+    position: absolute;
+    top: 2.2em;
+    left: 27.4em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deets {
+    color: rgb(182,192,195);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 8em;
+    left: 55em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bundleButton {
+    background-color:  rgb(15,71,89);
+    position: absolute;
+    top: 0;
+    left: 80em;
+    bottom: 1em;
+    right: 0;
+    margin: auto;
+    height: 60px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.bundleButtonText {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 1.6em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.terms {
+    color: rgb(182,192,195);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 11em;
+    left: 157em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.included {
+    color: rgb(45,189,157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 53em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.allThe {
+    position: absolute;
+    top: 12.3em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 68px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stream {
+    position: absolute;
+    top: 40em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+}
+
+.grid-container-one {
+    position: absolute;
+    top: 66em;
+    bottom: 0;
+    left: 20em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "burgers springs fires watchmen";
+  }
+
+  .burgers { grid-area: burgers; }
+  .springs { grid-area: springs; }
+  .fires { grid-area: fires; }
+  .watchmen { grid-area: watchmen; }
+
+.posters{
+    height: 452px;
+    width: 295px;
+    opacity: 0.5;
+}
+
+.overlayOne {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.past {
+    position: absolute;
+    top: 75em;
+    bottom: 0;
+    left: 21em;
+    margin: auto;
+}
+
+.new {
+    position: absolute;
+    top: 75em;
+    bottom: 0;
+    left: 41em;
+    margin: auto;
+}
+
+.ground {
+    position: absolute;
+    top: 75em;
+    bottom: 0;
+    left: 61em;
+    margin: auto;
+}
+
+.adds {
+    position: absolute;
+    top: 75em;
+    bottom: 0;
+    left: 81em;
+    margin: auto;
+}
+
+.overlayTwo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tv {
+    position: absolute;
+    top: 51.5em;
+    bottom: 0;
+    left: 14em;
+    margin: auto;
+}
+
+.movies {
+    position: absolute;
+    top: 51.5em;
+    bottom: 0;
+    left: 27.3em;
+    margin: auto;
+}
+
+.hulu {
+    position: absolute;
+    top: 51.5em;
+    bottom: 0;
+    left: 40.6em;
+    margin: auto;
+}
+
+.premiums {
+    position: absolute;
+    top: 51.5em;
+    bottom: 0;
+    left: 54em;
+    margin: auto;
+}
+
+.network {
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 209em;
+    bottom: 0;
+    left: 128em;
+    margin: auto;
+}
+
+.background {
+    height: 1600px;
+}
